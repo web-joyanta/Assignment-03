@@ -18,17 +18,63 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              "primary-bg-400": "#ABEF5F",
+              "primary-bg-200": "rgba(171, 239, 95, 0.50)",
             },
           },
         },
       };
     </script>
   </head>
-  <body>
+  <body class="manrope-font">
     <!-- header section -->
-    <header></header>
+    <header class="bg-gradient-to-b from-[#f4f4f4]">
+      <!-- navbar section -->
+      <nav class="px-3 md:px-0 md:container mx-auto pt-5">
+        <div class="navbar">
+          <div class="navbar-start">
+            <!--  -->
+            <span class="bg-primary-bg-400 py-1 px-2 rounded-full mr-2"><i class="fa-solid fa-arrow-right -rotate-45"></i></span>
+            <a class="text-3xl font-extrabold">Rinterio</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-base">
+              <li class="font-bold"><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="hidden md:block">
+              <span class="py-1 px-2 bg-white rounded-full mr-4 text-gray-500"><i class="fa-solid fa-magnifying-glass"></i></span>
+              <span class="py-1 px-2 bg-white rounded-full mr-4 text-gray-500"><i class="fa-solid fa-cart-shopping"></i></span>
+              <a class="btn bg-primary-bg-400 rounded-3xl text-base font-extrabold"
+                >Book Consult
+                <span class="bg-black px-2 py-1 rounded-full text-white"><i class="fa-solid fa-arrow-right -rotate-45"></i></span>
+              </a>
+            </div>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost  lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 -ml-32 w-40 p-2 shadow">
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!-- main section -->
-    <main></main>
+    <main class="h-32"></main>
     <!-- footer section -->
     <footer></footer>
   </body>
