@@ -3,3 +3,6 @@
 .manrope-font {
   font-family: "Manrope", sans-serif;
 }
+#gb-image{
+  background-image: url(../assets/bg.jpg);
+}
